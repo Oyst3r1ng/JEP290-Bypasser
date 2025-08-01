@@ -1,0 +1,8 @@
+rasp/RMIBypassAgent.class
+rasp/RemoteHandlerAdapter.class
+server/RMIServer.class
+common/IRemoteObject.class
+rasp/RMITransformer$1.class
+rasp/RMITransformer.class
+server/HelloRemoteObject.class
+client/ClientAttackServer.class
