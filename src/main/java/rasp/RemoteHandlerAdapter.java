@@ -23,6 +23,7 @@ public class RemoteHandlerAdapter extends AdviceAdapter {
 
             mv.visitLdcInsn(8370655165776887524L);
             replaced = true;
+            System.out.println("[RASP] Successed");
         } else {
             super.visitMethodInsn(opcode, owner, name, descriptor, isInterface);
         }
